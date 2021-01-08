@@ -1,0 +1,113 @@
+header {
+	background-color: blue;
+	color: whitesmoke;
+	padding: 5px 0px;
+}
+
+.logo {
+	color: whitesmoke;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+.box {
+	width: 1240px;
+	position: relative;
+	margin: 0px auto;
+}
+
+nav {
+	position: absolute;
+	top: 8px;
+	right: 0px;
+}
+
+nav li {
+	display: inline;
+	margin-right: 40px;
+	font-weight: bold;
+}
+
+nav li:hover {
+	opacity: 80%;
+	transition: 500ms;
+}
+
+nav a {
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+.link-anunciar {
+	background-color: orangered;
+	border-radius: 2px;
+	padding: 8px;
+}
+
+.link-anunciar:hover {
+	background-color: orange;
+	opacity: 80%;
+	transition: 0.8s;
+}
+
+@media screen and (max-width:1024px) {
+	.box {
+		width: auto;
+	}
+
+	.logo {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+		width: 100%;
+	}
+
+	nav li {
+		margin-right: 10px;
+	}
+}
+
+@media screen and (max-width:820px) {
+	.box {
+		width: auto;
+	}
+
+	.logo {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+		width: 100%;
+	}
+
+	nav li {
+		margin-right: 10px;
+	}
+}
+
+@media screen and (max-width:280px) {
+	.box {
+		width: auto;
+		position: relative;
+	}
+
+	.logo {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+	}
+
+	nav li {
+		display: block;
+		text-align: left;
+		margin-top: 20px;
+	}
+
+	.link-anunciar {
+		width: 100%;
+	}
+}
