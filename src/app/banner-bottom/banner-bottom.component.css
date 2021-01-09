@@ -28,7 +28,7 @@
 		width: auto;
 		height: 160px;
 		position: relative;
-		top: 1148px;
+		top: 1180px;
 	}
 
 	.titulo-banner {
@@ -75,12 +75,12 @@
 	}
 }
 
-@media screen and (max-width:640px) {
+@media screen and (max-width:660px) {
 	.banner-bottom {
 		width: auto;
 		height: 160px;
 		position: relative;
-		top: 4160px;
+		top: 3850px;
 	}
 
 	.titulo-banner {
@@ -133,7 +133,7 @@
 		width: auto;
 		height: 160px;
 		position: relative;
-		top: 4028px;
+		top: 3700px;
 	}
 
 	.titulo-banner {

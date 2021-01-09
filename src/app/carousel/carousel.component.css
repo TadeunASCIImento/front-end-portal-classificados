@@ -95,24 +95,23 @@ span {
 	}
 
 	.card {
-		margin-top: 100px;
+		margin-top: 20px;
 	}
 }
 
-@media screen and (max-width:414px) {
+@media screen and (max-width:420px) {
 	.titulo-imoveis {
 		position: absolute;
 		width: 100%;
 		top: 2560px;
 		margin: 0px auto;
-		text-align: left;
 	}
 
 	#carousel-imoveis {
 		width: auto;
 		height: 2620px;
 		position: absolute;
-		top: 2620px;
+		top: 2580px;
 	}
 
 	span {
@@ -120,7 +119,7 @@ span {
 	}
 
 	.card {
-		margin-top: 100px;
+		margin-top: 40px;
 	}
 }
 
@@ -128,16 +127,16 @@ span {
 	.titulo-imoveis {
 		position: absolute;
 		width: 100%;
-		top: 2640px;
+		top: 2450px;
 		margin: 0px auto;
-		text-align: left;
+		text-align: center;
 	}
 
 	#carousel-imoveis {
 		width: auto;
 		height: 2320px;
 		position: absolute;
-		top: 2720px;
+		top: 2480px;
 	}
 
 	span {
@@ -145,7 +144,7 @@ span {
 	}
 
 	.card {
-		margin-top: 100px;
+		margin-top: 20px;
 	}
 }
 

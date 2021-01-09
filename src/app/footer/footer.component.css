@@ -1,8 +1,14 @@
 footer{
     background-color: blue;
     width: auto;
-    height: 180px;
+    height: 220px;
     margin-top: 100px;
+}
+.logo{
+	text-shadow: 2px 2px 4px #000000;
+    color: whitesmoke;
+    padding-top: 144px;
+    text-align: center;
 }
 .info-footer,.redes-footer,span{
     color: whitesmoke;
@@ -16,6 +22,11 @@ footer{
     left: 10px;
     display: inline-block;
 }
+.info-footer li a{
+    color: whitesmoke;
+    text-decoration: none;
+
+}
 .redes-footer li{
     display: inline;
 }
@@ -25,7 +36,7 @@ footer{
     display: inline;
     position: absolute;
     right: 102px;
-    top: 100px;
+    top: 80px;
     float: left;
   
 }
@@ -37,8 +48,8 @@ footer{
     font-size: 30px;
     font-weight: bold;
     position: absolute;
-    top: 60px;
-    right: 120px;
+    top: 40px;
+    right: 116px;
 }
 .icone-rede{
     margin: 10px;
@@ -48,6 +59,8 @@ footer{
 @media screen and (max-width:1024px){
     footer{
         width: auto;
+        position: relative;
+        top:1200px;
     }
     
     .info-footer{
@@ -58,21 +71,16 @@ footer{
         list-style-type: none;
         display: inline;
         position: absolute;
-        right: 102px;
-        top: 0px;
-        float: left;
+        right: 40px;
+        top: 75px;
       
-    }
-    .box-footer{
-        position: relative;
-        margin: 0px auto;
     }
     .span-redes{
         font-size: 30px;
         font-weight: bold;
         position: absolute;
-        top: 60px;
-        right: 120px;
+        top: 40px;
+        right: 50px;
     }
     .icone-rede{
         margin: 10px;
@@ -121,13 +129,14 @@ footer{
     }
    
 }    
-@media screen and (max-width:640px){
+
+@media screen and (max-width:670px){
     footer{
         position: relative;
-        top: 4200px;
         background-color: blue;
         width: auto;
-        height: 180px;
+        height: 300px;
+        top: 5000px;
     }
     .info-footer,.redes-footer,span{
         color: whitesmoke;
@@ -138,7 +147,6 @@ footer{
     .info-footer{
         position: absolute;
         top: 40px;
-        left: 10px;
         display: inline-block;
     }
     .redes-footer li{
@@ -149,27 +157,75 @@ footer{
         list-style-type: none;
         display: inline;
         position: absolute;
-        right: 102px;
-        top: 100px;
+        right: 20px;
+        top: 80px;
         float: left;
       
-    }
-    .box-footer{
-        position: relative;
-        margin: 0px auto;
     }
     .span-redes{
         font-size: 30px;
         font-weight: bold;
         position: absolute;
-        top: 60px;
-        right: 120px;
+        top: 38px;
+        right: 30px;
     }
     .icone-rede{
         margin: 10px;
     }
+    .logo{
+        padding-top: 200px;
+    }
     
 } 
+
+@media screen and (max-width:540px){
+    footer{
+        position: relative;
+        background-color: blue;
+        width: auto;
+        height: 300px;
+        top: 5000px;
+    }
+    .info-footer,.redes-footer,span{
+        color: whitesmoke;
+        font-weight: lighter;
+        list-style-type: none;
+    }
+    
+    .info-footer{
+        position: absolute;
+        top: 40px;
+        display: inline-block;
+    }
+    .redes-footer li{
+        display: inline;
+    }
+    .redes-footer{
+        font-weight: lighter;
+        list-style-type: none;
+        display: inline;
+        position: absolute;
+        right: 20px;
+        top: 80px;
+        float: left;
+      
+    }
+    .span-redes{
+        font-size: 30px;
+        font-weight: bold;
+        position: absolute;
+        top: 38px;
+        right: 30px;
+    }
+    .icone-rede{
+        margin: 10px;
+    }
+    .logo{
+        padding-top: 200px;
+    }
+    
+} 
+
 
 @media screen and (max-width:414px){
     footer{
@@ -221,29 +277,39 @@ footer{
         width: auto;
         height: 420px;
         position: relative;
-        top: 4120px;
+        top: 3800px;
+    }
+    .info-footer{
+        top: 52px;
     }
  
     .redes-footer li{
      position: relative;
     }
     .redes-footer{
-        right: 5px;
+        position: absolute;
+        top: 72px;
+        right: 12px;
              
     }
     .span-redes{
         position: absolute;
-        top: 74px;
-        right:30px;
+        top: 48px;
+        right:20px;
         text-align: center;
         font-size: 22px;
     }
     .icone-rede{
-     width: 40px;
+     width: 30px;
      height: auto;
     }
+    .logo{
+        font-size: 32px;
+        position: relative;
+        top: 48px;
+    }
 }  
-    
+   
 @media screen and (max-width:280px){
     footer{
         background-color: blue;

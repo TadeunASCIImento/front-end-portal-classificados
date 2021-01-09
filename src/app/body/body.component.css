@@ -114,8 +114,61 @@ ul li {
 	}
 }
 
+
+@media screen and (max-width:540px){
+   
+}
+
+@media screen and (max-width:420px){
+	.fundo {
+		background-image: url("src/assets/backgrounds/bg-body-mobile-500.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+}
+
+@media screen and (max-width:380px) {
+	.fundo,.titulo {
+		width: auto;
+		height: auto;
+	}
+	.fundo {
+		background-image: url("src/assets/backgrounds/bg-body-mobile.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.categoria {
+		width: auto;
+		margin: 0px;
+		position: absolute;
+		border-radius: 0px;
+		top:540px;
+	}
+
+	h6 {
+		text-align: center;
+	}
+
+	.form-group {
+		text-align: center;
+		width: 100%;
+		margin: 5px auto;
+	}
+
+	.form-control {
+		text-align: center;
+		height: 60px;
+		width: 100%;
+	}
+
+	.btn {
+		width: 99%;
+		margin-left: 0px;
+	}
+}
+
 @media screen and (max-width:280px) {
-	.fundo,.titulo,.categoria {
+	.fundo,.titulo,.categoria,header {
 		width: auto;
 	}
 
