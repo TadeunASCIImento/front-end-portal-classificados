@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "portal-classificados"
+  "defaultProject": "portal-classificados",
+  "cli": {
+    "analytics": false
+  }
 }
