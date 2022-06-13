@@ -1,0 +1,22 @@
+.icone-email, .icone-github, .icone-linkedin, .icone-bitbucket {
+	margin: 0px 0px 0px 10px;
+	width: 30px;
+	height: 30px;
+}
+
+.icone-email {
+	margin: 0px 0px 0px 10px;
+	width: 32px;
+	height: 32px;
+}
+
+.icone-linkedin, .icone-bitbucket {
+	border-radius: 5px;
+}
+
+.icones-footer {
+	margin: 40px 0px;
+	text-align: center;
+	font-size: 0.7em;
+    font-weight: bold;
+}
