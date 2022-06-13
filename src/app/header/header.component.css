@@ -1,7 +1,7 @@
 header {
 	background-color: blue;
 	color: whitesmoke;
-	padding: 5px 0px;
+	padding: 5px 10px;
 }
 
 .logo {
@@ -10,7 +10,7 @@ header {
 }
 
 .box {
-	width: 1240px;
+	width:auto;
 	position: relative;
 	margin: 0px auto;
 }
